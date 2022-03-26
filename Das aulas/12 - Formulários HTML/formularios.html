@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <div>
+            <label for="primeironome">Primeiro Nome</label>
+            <input id="primeironome" type="text" name="primeironome"><br>
+        </div>
+        <div>
+            <label for="receberemails">Deseja receber e-mails de promoções?</label>
+            <input id="receberemails" type="checkbox" name="receberemails"><br>
+        </div>
+        <div>
+            <label>Sexo:</label><br>
+
+            <input id="sexomasculino" type="radio" name="sexo" value="masculino">
+            <label for="sexomasculino">Masculino</label><br>
+
+            <input id="sexofeminino" type="radio" name="sexo" value="feminino">
+            <label for="sexofeminino">Feminino</label><br>
+
+            <input id="sexooutros" type="radio" name="sexo" value="outos">
+            <label for="sexooutros">Outros</label><br>
+        
+            <label for="cidade">Cidade:</label>
+            <select name="cidade" id="cidade">
+                <option value="sao-paulo">São Paulo</option>
+                <option value="rio">Rio de Janeiro</option>
+            </select><br>
+
+            <label for="observacoes">Observações:</label><br>
+            <textarea name="observacoes" id="observacoes" cols="30" rows="10"></textarea>
+        </div>
+        <input type="submit" name="sexo" value="Enviar"><br>
+    </form>
+</body>
+</html>
